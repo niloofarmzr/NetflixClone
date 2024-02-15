@@ -1,0 +1,80 @@
+.profile {
+    color: white;
+    position: relative;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile__body {
+    width: 90%;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.profile h1 {
+    margin-bottom: 15px;
+    border-bottom: 1px solid gray;
+}
+
+.profile__contents {
+    width: 100%;
+    margin-top: 15px;
+    display: flex;
+    gap: 2rem;
+}
+
+.profile__avatar img{
+    width: 65px;
+}
+
+.profile__email {
+    background: gray;
+    padding: 16px;
+}
+
+.profile__details {
+    flex: 1;
+    display: flex;
+    gap: 1rem;
+    flex-flow: column;
+}
+
+.profile__details h3 {
+    padding-bottom: 8px;
+    border-bottom: 1px solid gray;
+}
+
+.profile__plans {
+    padding-left: 32px;
+    display: flex;
+    flex-flow: column;
+    gap: 2rem;
+}
+
+.profile__logout {
+    all: unset;
+    background: #e50914;
+    padding: 10px 20px;
+    width: 100%;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 64px;
+}
+
+.profile__plan {
+    display: flex;
+    justify-content: space-between;
+}
+.profile__subscribeButton {
+    all: unset;
+    background: #e50914;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.profile__subscribeButton_disabled {
+    background: gray;
+}

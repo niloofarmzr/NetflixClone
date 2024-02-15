@@ -1,0 +1,46 @@
+.signup {
+    position: relative;
+    width: 90%;
+    z-index: 2;
+    max-width: 400px;
+    padding: 70px;
+    background: rgba(0, 0, 0, 0.85);
+}
+
+.signup h1 {
+    margin-bottom: 16px;
+}
+
+.signup form {
+    display: grid;
+    flex-direction: column;
+}
+
+.signup input {
+    padding: 10px 20px;
+    margin-bottom: 14px;
+    border-radius: 5px;
+}
+
+.signup button {
+    padding: 10px 20px;
+    background: #e50914;
+    color: white;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.signup h4 {
+    margin-top: 30px;
+}
+
+.signup__gray {
+    color: gray;
+}
+
+.signup__link:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
